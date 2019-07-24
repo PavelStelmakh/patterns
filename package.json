@@ -1,0 +1,24 @@
+{
+  "name": "patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:chain": "node chain/public/index.js",
+    "dev:command": "node command/public/index.js",
+    "dev:madiator": "node madiator/public/index.js",
+    "dev:observer": "node observer/public/index.js",
+    "dev:visitor": "node visitor/public/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelStelmakh/patterns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavelStelmakh/patterns/issues"
+  },
+  "homepage": "https://github.com/PavelStelmakh/patterns#readme"
+}
