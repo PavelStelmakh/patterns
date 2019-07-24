@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var manager_1 = require("./manager");
+var worker1_1 = require("./worker1");
+var worker2_1 = require("./worker2");
+var w1 = new worker1_1.Worker1();
+var w2 = new worker2_1.Worker2();
+var m = new manager_1.Manager();
+m.notify({ name: w1.name, request: 'SALARY' });
+m.notify({ name: w2.name, request: 'LOCATION' });

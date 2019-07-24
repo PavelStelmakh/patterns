@@ -1,0 +1,19 @@
+{
+  "name": "laba1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "npm run tsc && node public/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "3.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "11.9.4"
+  }
+}

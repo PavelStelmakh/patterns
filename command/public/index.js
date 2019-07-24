@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var invoker_1 = require("./invoker");
+var receivers_1 = require("./receivers");
+var commands_1 = require("./commands");
+var invoker = new invoker_1.Invoker;
+var article = new receivers_1.Article;
+invoker.doSmth(new commands_1.SetNameCommand(article, 'name'));
+console.log(article.name, '\n');
+invoker.doSmth(new commands_1.SetDesCommand(article, 'bla bla bla'));
+console.log(article.description, '\n');

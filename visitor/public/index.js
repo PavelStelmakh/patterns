@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var org1_1 = require("./org1");
+var org2_1 = require("./org2");
+var visitor_1 = require("./visitor");
+var org1 = new org1_1.Organization1();
+var org2 = new org2_1.Organization2();
+var government = new visitor_1.Nalogovaia();
+org1.accept(government);
+org2.accept(government);
